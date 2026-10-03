@@ -1,0 +1,15 @@
+{
+  "name": "cinemabarbie",
+  "version": "1.0.0",
+  "description": "Cinema da Barbie - Landing Page",
+  "scripts": {
+    "dev": "npx http-server -p 3000",
+    "build": "echo 'Static site - no build required'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/speed-insights": "^2.0.0"
+  }
+}
