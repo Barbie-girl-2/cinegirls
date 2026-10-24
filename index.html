@@ -11,7 +11,7 @@
 <style>
 *{box-sizing:border-box}
 html,body{margin:0;padding:0;width:100%;overflow-x:hidden}
-body{font-family:Montserrat,Arial,sans-serif;background:linear-gradient(180deg,#ffdbe9 0%,#ffcfe2 52%,#ffc4da 100%);color:#29156e}
+body{font-family:Montserrat,Arial,sans-serif;background:linear-gradient(180deg,#fff8fc 0%,#fff 46%,#fff7fb 100%);color:#29156e}
 .page{width:100%;margin:0 auto}
 .block{width:100%;max-width:442px;margin:0 auto}
 
@@ -169,7 +169,7 @@ body{
   margin:0;
   padding:0;
   width:100%;
-  background:#ffdbe9 !important;
+  background:transparent !important;
 }
 
 body{
@@ -2030,17 +2030,6 @@ body.perf-page-hidden *::after{
   display:inline-block;
 }
 </style>
-
-<style id="dreamhouse-bonus-style">
-.dreamhouse-bonus{width:min(390px,92%);margin:14px auto 2px;padding:14px 15px;border:1px solid rgba(199,140,19,.42);border-radius:17px;background:linear-gradient(180deg,#fff7dc 0%,#ffe8a6 48%,#ffd875 100%);box-shadow:0 9px 22px rgba(180,125,12,.18), inset 0 1px 0 rgba(255,255,255,.72);text-align:center}.dreamhouse-bonus__tag{display:inline-block;margin-bottom:6px;padding:5px 10px;border-radius:999px;background:linear-gradient(180deg,#c98a10 0%,#a96c00 100%);color:#fff;font-size:10px;line-height:1;font-weight:800;letter-spacing:.7px;box-shadow:0 3px 8px rgba(169,108,0,.24)}.dreamhouse-bonus strong{display:block;color:#7a4700;font-family:Montserrat,Arial,sans-serif;font-size:16px;line-height:1.15;font-weight:800}.dreamhouse-bonus small{display:block;margin-top:4px;color:#7a5a1a;font-size:11px;line-height:1.35;font-weight:700}@media(min-width:768px){.dreamhouse-bonus{max-width:470px;padding:15px}.dreamhouse-bonus strong{font-size:18px}.dreamhouse-bonus small{font-size:12px}}
-</style>
-
-<style id="sticky-gold-update">
-.sticky-buy__price small{font-size:7.6px!important;letter-spacing:.35px!important;white-space:nowrap!important}
-.sticky-buy>a{background:linear-gradient(180deg,#bff2cf 0%,#8ed9aa 100%)!important;color:#145c35!important;border-color:#a8e8bf!important;box-shadow:inset 0 2px 0 rgba(255,255,255,.58),0 4px 0 #62b982,0 8px 16px rgba(55,143,91,.20)!important;text-shadow:0 1px 0 rgba(255,255,255,.35)!important}
-.sticky-buy>a:hover{filter:brightness(1.04)!important}
-@media(max-width:390px){.sticky-buy__price small{font-size:6.9px!important;letter-spacing:.1px!important}}
-</style>
 </head>
 <body>
 <section class="hero">
@@ -2122,24 +2111,50 @@ body.perf-page-hidden *::after{
 </div>
 </section><section class="barbie-offer-logo"><img alt="Barbie" src="assets/img-03.webp" decoding="async"></section><section class="movie-carousel-section"><div class="movie-carousel-shell"><div class="movie-carousel-track"><div class="movie-poster"><img alt="Barbie Lago dos Cisnes" decoding="async" loading="lazy" src="assets/img-04.webp"></div><div class="movie-poster"><img alt="Barbie e a Magia de Aladus" decoding="async" loading="lazy" src="assets/img-05.webp"></div><div class="movie-poster"><img alt="Barbie e as 12 Princesas Bailarinas" decoding="async" loading="lazy" src="assets/img-06.webp"></div><div class="movie-poster"><img alt="Barbie Quebra-Nozes" decoding="async" loading="lazy" src="assets/img-07.webp"></div><div class="movie-poster"><img alt="Barbie A Princesa da Ilha" decoding="async" loading="lazy" src="assets/img-08.webp"></div><div class="movie-poster"><img alt="Barbie Butterfly" decoding="async" loading="lazy" src="assets/img-09.webp"></div><div class="movie-poster"><img alt="Barbie e o Castelo de Diamante" decoding="async" loading="lazy" src="assets/img-10.webp"></div><div class="movie-poster"><img alt="Barbie Escola de Princesas" decoding="async" loading="lazy" src="assets/img-11.webp"></div></div></div></section><section class="preco-barbie">
 <div class="old">De R$ 59,90</div>
-<div class="price-wrap"><div class="price"><span class="currency">R$</span><span class="amount">9,90</span></div></div>
+<div class="price-wrap"><div class="price"><span class="currency">R$</span><span class="amount">6,90</span></div></div>
 <div class="payment">PAGAMENTO ÚNICO</div>
-<div class="dreamhouse-bonus"><span class="dreamhouse-bonus__tag">🎁 BÔNUS INCLUSO</span><strong>Barbie in the Dreamhouse</strong></div>
-</section><div class="primary-cta-wrap" style="width:100%;text-align:center"><a aria-label="Quero reviver essa magia" class="cta" href="https://pay.lowify.com.br/checkout.php?product_id=ZuAGEM" id="openBarbiePopup">GARANTIR ACESSO <span>›</span></a><div class="cta-reassurance cta-gold-benefits"><span>CINEMA DA BARBIE</span><b>+</b><span>SÉRIE DREAMHOUSE</span><b>+</b><span>25 JOGOS</span></div></div></div>
+</section><div class="primary-cta-wrap" style="width:100%;text-align:center"><a aria-label="Quero reviver essa magia" class="cta" href="#barbiePopup" id="openBarbiePopup">GARANTIR ACESSO <span>›</span></a><div class="cta-reassurance cta-gold-benefits"><span>+40 FILMES</span><b>+</b><span>25 JOGOS</span><b>+</b><span>ACESSO VITALÍCIO</span></div></div></div>
+<div aria-hidden="true" class="barbie-popup-overlay" id="barbiePopup">
+  <div class="popup-frame">
+    <button class="popup-close" aria-label="Fechar popup" type="button">×</button>
+    <div class="banner-area">
+      <img src="assets/img-12.webp" alt="Barbie in the Dreamhouse - Todos os episódios e especiais" loading="lazy" decoding="async">
+    </div>
+    <div class="popup-content">
+      <h1 class="popup-title">
+        <span class="popup-wait">ESPERA!</span>
+        <span class="popup-offer-line">Receba Barbie in the<br>Dreamhouse por apenas&nbsp;<br><span class="popup-price-highlight">3 reais</span>&nbsp;a mais</span>
+      </h1>
+      <div class="arrow-wrap"><div class="arrow-down"></div></div>
+      <div class="price-box">
+        <div class="old-price"><s>DE R$ 85,90</s></div>
+        <div class="only-price">por apenas</div>
+        <div class="price"><span class="currency">R$</span><span class="number">9,90</span></div>
+      </div>
+      <div class="cta-area">
+        <a href="https://pay.lowify.com.br/checkout?product_id=u9EaBN" class="cta-pill">
+          <span class="cta-main">SIM! QUERO FILMES + JOGOS + SÉRIE</span>
+          <span class="cta-sub">LEVAR TUDO POR R$9,90 →</span>
+        </a>
+      </div>
+      <a href="https://pay.lowify.com.br/checkout?product_id=Afc14o" class="only-movies">Não, quero apenas os filmes da Barbie<br>por R$ 6,90</a>
+    </div>
+  </div>
+</div>
 
 <div class="purchase-platform-divider" aria-hidden="true"><span>✦</span></div>
 <section class="platform-section" aria-label="Acesso exclusivo ao Cinema da Barbie">
   <div class="platform-card">
     <div class="platform-kicker"><span class="platform-kicker-dot"></span> SEU ACESSO EXCLUSIVO</div>
     <h2 class="platform-title">Não é só uma lista de filmes<em>É o seu Cinema da Barbie</em></h2>
-    <p class="platform-copy">Você recebe <strong>acesso ao site exclusivo</strong>, encontra os filmes organizados em um só lugar e ainda desbloqueia <strong>+25 jogos da Barbie</strong> e ganha de bônus a série <strong>Barbie in the Dreamhouse</strong>.</p>
+    <p class="platform-copy">Você recebe <strong>acesso ao site exclusivo</strong>, encontra os filmes organizados em um só lugar e ainda desbloqueia <strong>+25 jogos da Barbie</strong>.</p>
     <div class="platform-single-visual" onclick="this.classList.toggle('is-zoomed')" role="button" tabindex="0" aria-label="Barbieflix e Jogos da Barbie — toque para ampliar">
       <img src="assets/img-13.webp" alt="Barbieflix mais Jogos da Barbie" loading="lazy" decoding="async">
       <span class="platform-zoom-hint">Toque para ampliar</span>
     </div>
     <div class="platform-features">
       <div class="platform-feature"><div class="platform-feature-icon">💗</div><b>SITE EXCLUSIVO</b></div>
-      <div class="platform-feature"><div class="platform-feature-icon">🎁</div><b>SÉRIE DREAMHOUSE</b></div>
+      <div class="platform-feature"><div class="platform-feature-icon">🎬</div><b>FILMES ORGANIZADOS</b></div>
       <div class="platform-feature"><div class="platform-feature-icon">🎮</div><b>+25 JOGOS</b></div>
     </div>
   </div>
@@ -2274,16 +2289,15 @@ body.perf-page-hidden *::after{
 </div>
 </section><section class="final-neon-box"><div class="last-call">ÚLTIMA CHAMADA</div><h2 class="final-headline"><span>Pronta para rever</span><br/><em>seus filmes favoritos?</em></h2><section class="preco-barbie">
 <div class="old">De R$ 59,90</div>
-<div class="price-wrap"><div class="price"><span class="currency">R$</span><span class="amount">9,90</span></div></div>
+<div class="price-wrap"><div class="price"><span class="currency">R$</span><span class="amount">6,90</span></div></div>
 <div class="payment">PAGAMENTO ÚNICO</div>
-<div class="dreamhouse-bonus"><span class="dreamhouse-bonus__tag">🎁 BÔNUS INCLUSO</span><strong>Barbie in the Dreamhouse</strong></div>
-</section><div class="final-cta-wrap"><div class="final-cta-label cta-gold-benefits"><span>CINEMA DA BARBIE</span><b>+</b><span>SÉRIE DREAMHOUSE</span><b>+</b><span>25 JOGOS</span></div><a class="final-cta" href="https://pay.lowify.com.br/checkout.php?product_id=ZuAGEM" id="openBarbiePopupFinal">GARANTIR ACESSO <span>›</span></a></div></section>
+</section><div class="final-cta-wrap"><div class="final-cta-label cta-gold-benefits"><span>+40 FILMES</span><b>+</b><span>25 JOGOS</span><b>+</b><span>ACESSO VITALÍCIO</span></div><a class="final-cta" href="#barbiePopup" id="openBarbiePopupFinal">GARANTIR ACESSO <span>›</span></a></div></section>
 
 <div class="faq-divider"><img alt="" src="assets/img-15.webp" loading="lazy" decoding="async"></div><section class="faq-wrap">
 <h2 class="faq-title">Dúvidas Frequentes</h2>
 <p class="faq-subtitle">Tudo o que você precisa saber antes de entrar para o Cinema da Barbie.</p>
 <div class="faq-list">
-<details class="faq-item"><summary><span class="question-icon">✉️</span>Como recebo meu acesso?</summary><div class="faq-answer"><p>A plataforma é um <strong>site exclusivo</strong> com todos os filmes, <strong>+25 jogos clássicos da Barbie</strong> e a série <strong>Barbie in the Dreamhouse de bônus</strong>. Você também recebe acesso ao nosso canal privado do Telegram.<br><br>Após a confirmação, o seu login e acesso será enviado por e-mail. Confira sua <strong>caixinha de spam</strong> caso não tenha chegado. Você pode entrar em contato com nossa equipe pelo número <strong>(21) 98459-8649</strong> caso não tenha recebido.</p></div></details>
+<details class="faq-item"><summary><span class="question-icon">✉️</span>Como recebo meu acesso?</summary><div class="faq-answer"><p>A plataforma é um <strong>site exclusivo</strong> com todos os filmes, <strong>+25 jogos clássicos da Barbie</strong>. Você também recebe acesso ao nosso canal privado do Telegram.<br><br>Após a confirmação, o seu login e acesso será enviado por e-mail. Confira sua <strong>caixinha de spam</strong> caso não tenha chegado. Você pode entrar em contato com nossa equipe pelo número <strong>(21) 98459-8649</strong> caso não tenha recebido.</p></div></details>
 <details class="faq-item"><summary><span class="question-icon">📺</span>Consigo ver na TV?</summary><div class="faq-answer"><p>Sim! Nosso Instagram tem um destaque ensinando como acessar pela TV. Entre no perfil <strong>@ocinemadasgirls</strong> e confira.</p></div></details>
 <details class="faq-item"><summary><span class="question-icon">🎞️</span>Está em qualidade máxima?</summary><div class="faq-answer"><p>Todos os filmes estão em <strong>1080p (Full HD)</strong>, que é a melhor qualidade para assistir no celular.<br/><br/>A grande maioria dos celulares não reproduz em 4K e, nos que reproduzem, o arquivo fica enorme e demora mais para abrir.<br/><br/>Em 1080p, seu filme carrega mais rápido e continua em alta qualidade!</p></div></details>
 <details class="faq-item"><summary><span class="question-icon">✈️</span>O que é Telegram?</summary><div class="faq-answer"><p>Telegram é um aplicativo muito parecido com o WhatsApp, mas lá você pode receber arquivos grandes em alta qualidade.</p></div></details>
@@ -2296,10 +2310,36 @@ body.perf-page-hidden *::after{
 </section>
 
 <div class="sticky-buy" id="stickyBuy" aria-label="Acesso rápido à oferta">
-  <div class="sticky-buy__price"><small>CINEMA DA BARBIE + SÉRIE + 25 JOGOS</small><strong>R$ 9,90</strong></div>
-  <a href="https://pay.lowify.com.br/checkout?product_id=ZuAGEM" id="openBarbiePopupSticky">ACESSAR AGORA</a>
+  <div class="sticky-buy__price"><small>CINEMA DA BARBIE</small><strong>R$ 6,90</strong></div>
+  <a href="#barbiePopup" id="openBarbiePopupSticky">ACESSAR AGORA</a>
 </div>
-
+<script>(()=>{
+  const overlay=document.getElementById('barbiePopup');
+  if(!overlay) return;
+  const openIds=['openBarbiePopup','openBarbiePopupFinal','openBarbiePopupSticky'];
+  const openPopup=(e)=>{
+    if(e) e.preventDefault();
+    overlay.classList.add('is-open');
+    overlay.setAttribute('aria-hidden','false');
+    document.body.classList.add('popup-open');
+    if(location.hash!=='#barbiePopup') history.replaceState(null,'','#barbiePopup');
+  };
+  const closePopup=(e)=>{
+    if(e) e.preventDefault();
+    overlay.classList.remove('is-open');
+    overlay.setAttribute('aria-hidden','true');
+    document.body.classList.remove('popup-open');
+    if(location.hash==='#barbiePopup') history.replaceState(null,'',location.pathname+location.search);
+  };
+  openIds.forEach(id=>{
+    const el=document.getElementById(id);
+    if(el) el.addEventListener('click',openPopup);
+  });
+  const closeButton=overlay.querySelector('.popup-close');
+  if(closeButton) closeButton.addEventListener('click',closePopup);
+  overlay.addEventListener('click',e=>{ if(e.target===overlay) closePopup(e); });
+  document.addEventListener('keydown',e=>{ if(e.key==='Escape' && (overlay.classList.contains('is-open') || location.hash==='#barbiePopup')) closePopup(e); });
+})();</script>
 
 <script id="expert-enhancements-js">
 (()=>{
@@ -2316,13 +2356,16 @@ body.perf-page-hidden *::after{
   const sticky=document.getElementById('stickyBuy');
   const firstOffer=document.querySelector('.initial-showcase-box');
   const finalOffer=document.querySelector('.final-neon-box');
+  const popup=document.getElementById('barbiePopup');
   if(!sticky || !firstOffer || !finalOffer) return;
 
   let ticking=false;
   const update=()=>{
     const firstBottom=firstOffer.getBoundingClientRect().bottom;
     const finalTop=finalOffer.getBoundingClientRect().top;
-    sticky.classList.add('is-visible');
+    const popupOpen=popup && popup.classList.contains('is-open');
+    const shouldShow=!popupOpen;
+    sticky.classList.toggle('is-visible',shouldShow);
     ticking=false;
   };
   const requestUpdate=()=>{if(!ticking){requestAnimationFrame(update);ticking=true;}};
@@ -2391,27 +2434,16 @@ document.addEventListener('DOMContentLoaded',()=>{
 });
 </script>
 
-
-
-<style id="site-background-final-override">
-html, body, .page {
-  background:#f7c5da !important;
-}
-body {
-  background:linear-gradient(180deg,#fad2e3 0%,#f6bfd6 52%,#f2b5cf 100%) !important;
-  background-attachment:fixed !important;
-}
-.purchase-platform-divider{color:#f2c94c !important;}
-.purchase-platform-divider:before,.purchase-platform-divider:after{background:linear-gradient(90deg,transparent,rgba(242,201,76,.88),transparent) !important;}
-.purchase-platform-divider span{text-shadow:0 0 9px rgba(242,201,76,.46) !important;}
-</style>
-
-
-<style id="hero-gradient-match-background">
-.hero::after{
-  background:linear-gradient(180deg,rgba(247,197,218,0) 0%,rgba(247,197,218,.52) 48%,#f7c5da 100%) !important;
-}
-</style>
-
+<script id="popup-close-safety">
+document.addEventListener('click',function(e){
+  const btn=e.target.closest('.popup-close');
+  if(!btn)return;
+  e.preventDefault();e.stopPropagation();
+  const overlay=document.getElementById('barbiePopup');
+  if(overlay){overlay.classList.remove('is-open');overlay.setAttribute('aria-hidden','true');}
+  document.body.classList.remove('popup-open');
+  if(location.hash==='#barbiePopup') history.replaceState(null,'',location.pathname+location.search);
+},true);
+</script>
 </body>
 </html>
