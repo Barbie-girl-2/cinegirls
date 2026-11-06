@@ -1243,7 +1243,204 @@ html,body{margin:0!important;padding:0!important;}
 </style>
 <style id="banner-noite-ajuste-final-20261106">
 #noite-das-girls .night-banner{display:block;width:100%;height:auto;object-fit:contain;object-position:center;border-radius:12px;}
-</style></head><body><div class="shell"><div aria-label="Oportunidade de lançamento" class="offer-strip" role="region"><span class="offer-message">Aproveite <strong>AGORA</strong> essa oportunidade!</span></div><header class="brandbar"><a class="brand" href="#inicio"><img alt="Cinema das Girls" decoding="async" loading="eager" src="assets/logo-cinema-das-girls.webp"/></a></header><main id="inicio"><section class="hero-shell"><img alt="Todos os filmes da Barbie que marcaram sua infância, +40 filmes dublados, alta qualidade, +25 jogos e sem mensalidade" class="hero-banner" fetchpriority="high" src="assets/banner-topo-barbie.webp"/><div class="hero-offer" id="comprar-barbie">
+</style>
+<style id="cards-compra-mobile-refinados-2026">
+/* Dois cards com um pouco mais de largura e as setas nas laterais. */
+.worlds .package-carousel-frame-minimal {
+  width:calc(100% - 54px)!important;
+  max-width:540px!important;
+  margin:4px auto 13px!important;
+}
+.worlds .package-carousel-frame-minimal #pacotes-carousel {
+  display:flex!important;
+  flex-wrap:nowrap!important;
+  align-items:stretch!important;
+  gap:10px!important;
+  padding:3px 0 14px!important;
+  margin:0!important;
+  scroll-padding:0!important;
+  scroll-snap-type:x mandatory!important;
+  scroll-behavior:auto!important;
+  overflow-x:auto!important;
+  -webkit-overflow-scrolling:touch!important;
+  touch-action:pan-x pan-y;
+}
+.worlds .package-carousel-frame-minimal #pacotes-carousel .collection-card {
+  box-sizing:border-box!important;
+  display:flex!important;
+  flex-direction:column!important;
+  flex:0 0 calc((100% - 10px)/2)!important;
+  width:calc((100% - 10px)/2)!important;
+  min-width:0!important;
+  max-width:none!important;
+  scroll-snap-align:start!important;
+  overflow:hidden!important;
+  height:auto!important;
+  border-radius:17px!important;
+}
+/* Espaço para o último card quando a quantidade de pacotes é ímpar.
+   Evita repetir um card da página anterior. */
+.worlds .package-carousel-frame-minimal #pacotes-carousel::after {
+  content:"";
+  flex:0 0 calc((100% - 10px)/2);
+  width:calc((100% - 10px)/2);
+  display:block;
+  pointer-events:none;
+}
+.worlds .package-carousel-frame-minimal .collection-card .collection-info {
+  display:flex!important;
+  flex:1 1 auto!important;
+  min-width:0!important;
+  flex-direction:column!important;
+  padding:13px 12px 14px!important;
+}
+.worlds .package-carousel-frame-minimal .collection-card .collection-info h3 {
+  margin:0 0 8px!important;
+  font-size:clamp(14px,3.65vw,17px)!important;
+  line-height:1.22!important;
+  letter-spacing:-.02em!important;
+  min-height:0!important;
+  height:auto!important;
+  overflow-wrap:normal;
+  hyphens:none;
+}
+.worlds .package-carousel-frame-minimal .collection-card .collection-info p {
+  color:#81687d!important;
+  font-size:clamp(11.5px,3.05vw,13px)!important;
+  line-height:1.42!important;
+  letter-spacing:0!important;
+  margin:0 0 16px!important;
+  min-height:0!important;
+  height:auto!important;
+  flex:1 1 auto!important;
+  overflow-wrap:break-word;
+  text-wrap:pretty;
+}
+/* Preço na mesma linha; botão em sua própria linha abaixo. */
+.worlds .package-carousel-frame-minimal .collection-card .collection-bottom {
+  display:flex!important;
+  flex-direction:column!important;
+  align-items:stretch!important;
+  justify-content:flex-end!important;
+  gap:10px!important;
+  margin-top:auto!important;
+  width:100%!important;
+}
+.worlds .package-carousel-frame-minimal .collection-card .collection-bottom strong {
+  display:block!important;
+  width:100%!important;
+  margin:0!important;
+  padding:0!important;
+  text-align:center!important;
+  color:#ab1a72!important;
+  font-size:clamp(18px,4.6vw,22px)!important;
+  font-weight:800!important;
+  letter-spacing:-.025em!important;
+  line-height:1.14!important;
+  white-space:nowrap!important;
+  word-break:normal!important;
+  overflow-wrap:normal!important;
+  flex:none!important;
+}
+.worlds .package-carousel-frame-minimal .collection-card .collection-bottom a.collection-cta,
+.worlds .package-carousel-frame-minimal .collection-card .collection-bottom a.verified-checkout-link {
+  box-sizing:border-box!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  width:100%!important;
+  min-width:0!important;
+  min-height:41px!important;
+  margin:0!important;
+  padding:11px 5px!important;
+  border-radius:11px!important;
+  font-size:clamp(11.5px,3.1vw,13px)!important;
+  font-weight:800!important;
+  text-align:center!important;
+  line-height:1.2!important;
+  white-space:nowrap!important;
+}
+/* Alvos de toque preservados, mas a moldura visível da seta fica menor. */
+.worlds .package-carousel-frame-minimal .minimal-arrow {
+  box-sizing:border-box!important;
+  display:flex!important;
+  position:absolute!important;
+  z-index:15!important;
+  top:47%!important;
+  align-items:center!important;
+  justify-content:center!important;
+  width:29px!important;
+  min-width:29px!important;
+  height:43px!important;
+  margin:0!important;
+  padding:0!important;
+  background:transparent!important;
+  border:none!important;
+  box-shadow:none!important;
+  border-radius:9px!important;
+  color:#ac2779!important;
+  font:400 25px/1 Arial,sans-serif!important;
+  cursor:pointer!important;
+  -webkit-tap-highlight-color:transparent!important;
+  touch-action:manipulation!important;
+  transform:translateY(-50%)!important;
+}
+.worlds .package-carousel-frame-minimal .minimal-arrow::before {
+  content:"";
+  position:absolute;
+  z-index:-1;
+  inset:5px 2px;
+  background:rgba(255,250,253,.90);
+  border:1px solid rgba(205,79,147,.23);
+  border-radius:10px;
+  box-shadow:0 2px 7px rgba(148,45,103,.08);
+  pointer-events:none;
+}
+.worlds .package-carousel-frame-minimal .package-nav-prev { left:-29px!important; }
+.worlds .package-carousel-frame-minimal .package-nav-next { right:-29px!important; }
+.worlds .package-carousel-frame-minimal .minimal-arrow:disabled { opacity:.28!important;cursor:default!important; }
+.worlds .package-carousel-frame-minimal .minimal-arrow:focus-visible { outline:2px solid #ad2c78!important;outline-offset:1px!important; }
+@media (max-width:359px) {
+  .worlds .package-carousel-frame-minimal {width:calc(100% - 49px)!important}
+  .worlds .package-carousel-frame-minimal .package-nav-prev {left:-26px!important}
+  .worlds .package-carousel-frame-minimal .package-nav-next {right:-26px!important}
+  .worlds .package-carousel-frame-minimal .collection-card .collection-info {padding:11px 9px 12px!important}
+}
+</style>
+
+<style id="compactar-descricoes-cards-2026-11-06">
+/* Compactar a vitrine sem perder legibilidade ou alterar carrossel. */
+.worlds .package-carousel-frame-minimal .collection-card .collection-info {
+  padding:10px 10px 12px!important;
+}
+.worlds .package-carousel-frame-minimal .collection-card .collection-info h3 {
+  font-size:clamp(13px,3.65vw,16px)!important;
+  line-height:1.22!important;
+  margin:0 0 7px!important;
+}
+.worlds .package-carousel-frame-minimal .collection-card .collection-info p {
+  font-size:clamp(11.5px,3.0vw,12.5px)!important;
+  line-height:1.4!important;
+  margin:0 0 10px!important;
+  flex:1 1 auto!important;
+  min-height:0!important;
+}
+.worlds .package-carousel-frame-minimal .collection-card .collection-bottom {
+  gap:8px!important;
+}
+.worlds .package-carousel-frame-minimal .collection-card .collection-bottom strong {
+  font-size:clamp(17px,4.5vw,20px)!important;
+}
+.worlds .package-carousel-frame-minimal .collection-card .collection-bottom a.collection-cta,
+.worlds .package-carousel-frame-minimal .collection-card .collection-bottom a.verified-checkout-link {
+  min-height:40px!important;
+  padding:10px 5px!important;
+}
+@media(max-width:359px){
+  .worlds .package-carousel-frame-minimal .collection-card .collection-info {padding:9px 8px 11px!important}
+}
+</style>
+</head><body><div class="shell"><div aria-label="Oportunidade de lançamento" class="offer-strip" role="region"><span class="offer-message">Aproveite <strong>AGORA</strong> essa oportunidade!</span></div><header class="brandbar"><a class="brand" href="#inicio"><img alt="Cinema das Girls" decoding="async" loading="eager" src="assets/logo-cinema-das-girls.webp"/></a></header><main id="inicio"><section class="hero-shell"><img alt="Todos os filmes da Barbie que marcaram sua infância, +40 filmes dublados, alta qualidade, +25 jogos e sem mensalidade" class="hero-banner" fetchpriority="high" src="assets/banner-topo-barbie.webp"/><div class="hero-offer" id="comprar-barbie">
 <div class="site-offer-fragment">
 <section class="topo-oferta">
 <div class="exclusive">OFERTA EXCLUSIVA</div>
@@ -1269,10 +1466,10 @@ html,body{margin:0!important;padding:0!important;}
 <div class="section-kicker">CONHEÇA A PLATAFORMA</div>
 <div class="devices-showcase"><img alt="Cinema da Barbie disponível em computador, notebook e celular" class="barbie-devices-image" decoding="async" height="1024" loading="lazy" src="assets/dispositivos-plataforma.webp" width="1536"/></div><h2 class="display-title">Seu mundinho rosa</h2><p class="small-desc">Um site exclusivo com todos os clássicos da Barbie para vocês assistir no celular, computador ou TV.</p>
 <div class="site-showcase-note"><strong>Todos os filmes em um só lugar!</strong></div>
-</section><svg aria-hidden="true" class="wave" preserveaspectratio="none" style="background:#f6d7ee" viewbox="0 0 470 30"><path d="M0 8 Q58 29 117 10 T235 11 T353 10 T470 12 V30 H0 Z" fill="#fde0ed"></path></svg><section class="worlds" id="colecoes"><div class="section-kicker">REVIVA SUA INFÂNCIA</div><h2 class="display-title">Assista seus<br/>desenhos favoritos</h2><p class="small-desc">Escolha o universo que combina com a sua maratona!</p><div class="world-icons"><a href="#vitrine"><span>🎀</span>Barbie</a><a href="#vitrine"><span>🏰</span>Disney</a><a href="#vitrine"><span>🍓</span>Moranguinho</a><a href="#vitrine"><span>🦇</span>Monster High</a></div><div class="collection-label" id="vitrine">Escolha sua próxima maratona ✧</div><div aria-label="Navegar pelas coleções" class="package-carousel-frame-minimal"><button aria-controls="pacotes-carousel" aria-label="Ver pacote anterior" class="minimal-arrow package-nav package-nav-prev" type="button">‹</button><div aria-label="Pacotes do Cinema das Girls; use as setas ou deslize para navegar" class="collection-track" id="pacotes-carousel" tabindex="0"><article class="collection-card featured-card featured-barbie"><div class="best-seller-tag">MAIS VENDIDO</div><div class="collection-image barbie-card-banner"><img alt="Cinema da Barbie" loading="lazy" src="assets/card-barbie.webp"/></div><div class="collection-info"><h3>Cinema da Barbie</h3><p>Todos os +40 filmes da Barbie e +30 jogos do antigo site para você se divertir!</p><div class="collection-bottom"><strong>R$ 6,90</strong><a aria-controls="barbiePopup" aria-haspopup="dialog" class="collection-cta" data-barbie-popup-trigger="true" data-previous-checkout="https://pay.lowify.com.br/checkout?product_id=ZuAGEM" href="#barbiePopup" target="_self">Comprar</a></div></div></article><article class="collection-card featured-card featured-disney"><div class="best-seller-tag">MAIS VENDIDO</div><div class="collection-image"><img alt="Disney, castelo Walt Disney Studios" decoding="async" loading="lazy" src="assets/card-disney.webp"/></div><div class="collection-info"><h3>Cinema da Disney</h3><p>Assista aos filmes de animação desse universo mágico! Dos clássicos inesquecíveis aos lançamentos mais recentes.</p><div class="collection-bottom"><strong>R$ 9,90</strong><a class="collection-cta" href="https://pay.lowify.com.br/checkout?product_id=GtelUn" rel="noopener noreferrer" target="_blank">Comprar</a></div></div></article><article class="collection-card"><div class="collection-image"><img alt="Moranguinho com logotipo e morangos" decoding="async" loading="lazy" src="assets/card-moranguinho.webp"/></div><div class="collection-info"><h3>Moranguinho</h3><p>Reviva desde as temporadas mais antigas até as mais novas, com muita doçura, amizade e fofura!</p><div class="collection-bottom"><strong>R$ 6,90</strong><a aria-label="Comprar Moranguinho por R$ 6,90 na Lowify" class="collection-cta verified-checkout-link" href="https://pay.lowify.com.br/checkout?product_id=dH3uEo" rel="noopener noreferrer" target="_blank">Comprar</a></div></div></article><article class="collection-card"><div class="collection-image"><img alt="Monster High, personagens e logotipo" decoding="async" loading="lazy" src="assets/card-monster-high.webp"/></div><div class="collection-info"><h3>Monster High</h3><p>Suas monstrinhas favoritas, cheias de estilo, em todas as gerações para você maratonar!</p><div class="collection-bottom"><strong>R$ 6,90</strong><a class="collection-cta" href="https://pay.lowify.com.br/checkout?product_id=bloEBS" rel="noopener noreferrer" target="_blank">Comprar</a></div></div></article><article class="collection-card"><div class="collection-image"><img alt="Clube das Winx" loading="lazy" src="assets/card-winx.webp"/></div><div class="collection-info"><h3>Clube das Winx</h3><p>As fadas mais poderosas de Alfea em 8 temporadas e filmes cheios de magia para você maratonar!</p><div class="collection-bottom"><strong>R$ 6,90</strong><a class="collection-cta" href="https://pay.lowify.com.br/checkout?product_id=v00kB1" rel="noopener" target="_blank">Comprar</a></div></div></article><article class="collection-card"><div class="collection-image"><img alt="Miraculous" loading="lazy" src="assets/card-miraculous.webp"/></div><div class="collection-info"><h3>Miraculous – Ladybug &amp; Cat Noir</h3><p>Acompanhe as aventuras de Ladybug e Cat Noir protegendo Paris, entre segredos, romances e muita ação!</p><div class="collection-bottom"><strong>R$ 6,90</strong><a class="collection-cta" href="https://pay.lowify.com.br/checkout?product_id=QeihRQ" rel="noopener" target="_blank">Comprar</a></div></div></article><article class="collection-card"><div class="collection-image spy-banner edge-to-edge"><img alt="Três Espiãs Demais" loading="lazy" src="assets/card-tres-espias.webp"/></div><div class="collection-info"><h3>Três Espiãs Demais</h3><p>Sam, Clover e Alex em missões secretas repletas de ação, moda, tecnologia e muita diversão!</p><div class="collection-bottom"><strong>R$ 6,90</strong><a class="collection-cta" href="https://pay.lowify.com.br/checkout?product_id=zVcWH6" rel="noopener noreferrer" target="_blank">Comprar</a></div></div></article><article class="collection-card"><div class="collection-image edge-to-edge"><img alt="Harry Potter" loading="lazy" src="assets/card-harry-potter.webp"/></div><div class="collection-info"><h3>Harry Potter</h3><p>Reviva a saga do bruxinho mais famoso do mundo, com magia, aventuras e mistérios de Hogwarts!</p><div class="collection-bottom"><strong>R$ 9,90</strong><a aria-label="Comprar Harry Potter por R$ 9,90 na Lowify" class="collection-cta verified-checkout-link" href="https://pay.lowify.com.br/checkout?product_id=XB5Js6" rel="noopener noreferrer" target="_blank">Comprar</a></div></div></article><article class="collection-card"><div class="collection-image edge-to-edge"><img alt="Crepúsculo" loading="lazy" src="assets/card-crepusculo.webp"/></div><div class="collection-info"><h3>Crepúsculo</h3><p>Reviva a história de Bella e Edward em uma saga de romance, vampiros, lobisomens e emoções intensas!</p><div class="collection-bottom"><strong>R$ 6,90</strong><a aria-label="Comprar Crepúsculo por R$ 6,90 na Lowify" class="collection-cta verified-checkout-link" href="https://pay.lowify.com.br/checkout?product_id=Wblz9V" rel="noopener noreferrer" target="_blank">Comprar</a></div></div></article><article class="collection-card card-terror"><span class="special-package-tag">ESPECIAL</span><div class="collection-image edge-to-edge terror-card-image"><img alt="Filmes de Terror" decoding="async" height="720" loading="lazy" src="assets/card-filmes-terror.webp" width="1280"/></div><div class="collection-info"><h3>Filmes de Terror</h3><p>Prepare a pipoca e a coragem para maratonar os novos e clássicos do terror!</p><div class="collection-bottom"><strong>R$ 9,90</strong><a aria-label="Comprar Filmes de Terror por R$ 9,90 na Lowify" class="collection-cta verified-checkout-link" href="https://pay.lowify.com.br/checkout?product_id=geEKcD" rel="noopener noreferrer" target="_blank">Comprar</a></div></div></article><article class="collection-card card-animacoes"><span class="special-package-tag">ESPECIAL</span><div class="collection-image edge-to-edge spooky-card-image"><img alt="Animações Assustadoras" decoding="async" height="720" loading="lazy" src="assets/card-animacoes-assustadoras.webp" width="1280"/></div><div class="collection-info"><h3>Animações Assustadoras</h3><p>Coraline, Noiva Cadáver, Scooby-doo... suas animações assustadoras favoritas!</p><div class="collection-bottom"><strong>R$ 6,90</strong><a aria-label="Comprar Animações Assustadoras por R$ 6,90 na Lowify" class="collection-cta verified-checkout-link" href="https://pay.lowify.com.br/checkout?product_id=97aH31" rel="noopener noreferrer" target="_blank">Comprar</a></div></div></article></div><button aria-controls="pacotes-carousel" aria-label="Ver próximo pacote" class="minimal-arrow package-nav package-nav-next" type="button">›</button></div><div class="small-hint">Deslize para ver todas as coleções →</div><div class="ribbon-bonus">🎁 <strong>Bônus:</strong> aproveite <strong>até 30% OFF</strong> nos desenhos extras ao complementar sua compra!</div></section><div class="reading-interlude"><p>Seu cantinho de nostalgia,<br/><em>onde você estiver.</em></p><div class="line"></div>♡</div><svg aria-hidden="true" class="wave wave-night-in" preserveaspectratio="none" style="background:#f5d4ef" viewbox="0 0 470 30"><path d="M0 8 Q58 29 117 10 T235 11 T353 10 T470 12 V30 H0 Z" fill="#27102a"></path></svg><section aria-label="Noite das Girls" class="night-wrap" id="noite-das-girls">
+</section><svg aria-hidden="true" class="wave" preserveaspectratio="none" style="background:#f6d7ee" viewbox="0 0 470 30"><path d="M0 8 Q58 29 117 10 T235 11 T353 10 T470 12 V30 H0 Z" fill="#fde0ed"></path></svg><section class="worlds" id="colecoes"><div class="section-kicker">REVIVA SUA INFÂNCIA</div><h2 class="display-title">Assista seus<br/>desenhos favoritos</h2><p class="small-desc">Escolha o universo que combina com a sua maratona!</p><div class="world-icons"><a href="#vitrine"><span>🎀</span>Barbie</a><a href="#vitrine"><span>🏰</span>Disney</a><a href="#vitrine"><span>🍓</span>Moranguinho</a><a href="#vitrine"><span>🦇</span>Monster High</a></div><div class="collection-label" id="vitrine">Escolha sua próxima maratona ✧</div><div aria-label="Navegar pelas coleções" class="package-carousel-frame-minimal"><button aria-controls="pacotes-carousel" aria-label="Ver pacote anterior" class="minimal-arrow package-nav package-nav-prev" type="button">‹</button><div aria-label="Pacotes do Cinema das Girls; use as setas ou deslize para navegar" class="collection-track" id="pacotes-carousel" tabindex="0"><article class="collection-card featured-card featured-barbie"><div class="best-seller-tag">MAIS VENDIDO</div><div class="collection-image barbie-card-banner"><img alt="Cinema da Barbie" loading="lazy" src="assets/card-barbie.webp"/></div><div class="collection-info"><h3>Cinema da Barbie</h3><p>+40 filmes e +30 jogos clássicos da Barbie!</p><div class="collection-bottom"><strong>R$ 6,90</strong><a aria-controls="barbiePopup" aria-haspopup="dialog" class="collection-cta" data-barbie-popup-trigger="true" data-previous-checkout="https://pay.lowify.com.br/checkout?product_id=ZuAGEM" href="#barbiePopup" target="_self">Comprar</a></div></div></article><article class="collection-card featured-card featured-disney"><div class="best-seller-tag">MAIS VENDIDO</div><div class="collection-image"><img alt="Disney, castelo Walt Disney Studios" decoding="async" loading="lazy" src="assets/card-disney.webp"/></div><div class="collection-info"><h3>Cinema da Disney</h3><p>Dos clássicos às animações mais recentes!</p><div class="collection-bottom"><strong>R$ 9,90</strong><a class="collection-cta" href="https://pay.lowify.com.br/checkout?product_id=GtelUn" rel="noopener noreferrer" target="_blank">Comprar</a></div></div></article><article class="collection-card"><div class="collection-image"><img alt="Moranguinho com logotipo e morangos" decoding="async" loading="lazy" src="assets/card-moranguinho.webp"/></div><div class="collection-info"><h3>Moranguinho</h3><p>Temporadas antigas e novas, cheias de fofura!</p><div class="collection-bottom"><strong>R$ 6,90</strong><a aria-label="Comprar Moranguinho por R$ 6,90 na Lowify" class="collection-cta verified-checkout-link" href="https://pay.lowify.com.br/checkout?product_id=dH3uEo" rel="noopener noreferrer" target="_blank">Comprar</a></div></div></article><article class="collection-card"><div class="collection-image"><img alt="Monster High, personagens e logotipo" decoding="async" loading="lazy" src="assets/card-monster-high.webp"/></div><div class="collection-info"><h3>Monster High</h3><p>Todas as gerações das monstrinhas mais estilosas!</p><div class="collection-bottom"><strong>R$ 6,90</strong><a class="collection-cta" href="https://pay.lowify.com.br/checkout?product_id=c4XK0X" rel="noopener noreferrer" target="_blank">Comprar</a></div></div></article><article class="collection-card"><div class="collection-image"><img alt="Clube das Winx" loading="lazy" src="assets/card-winx.webp"/></div><div class="collection-info"><h3>Clube das Winx</h3><p>8 temporadas e filmes cheios de magia!</p><div class="collection-bottom"><strong>R$ 6,90</strong><a class="collection-cta" href="https://pay.lowify.com.br/checkout?product_id=v00kB1" rel="noopener" target="_blank">Comprar</a></div></div></article><article class="collection-card"><div class="collection-image"><img alt="Miraculous" loading="lazy" src="assets/card-miraculous.webp"/></div><div class="collection-info"><h3>Miraculous – Ladybug &amp; Cat Noir</h3><p>Ladybug e Cat Noir salvando Paris!</p><div class="collection-bottom"><strong>R$ 6,90</strong><a class="collection-cta" href="https://pay.lowify.com.br/checkout?product_id=QeihRQ" rel="noopener" target="_blank">Comprar</a></div></div></article><article class="collection-card"><div class="collection-image spy-banner edge-to-edge"><img alt="Três Espiãs Demais" loading="lazy" src="assets/card-tres-espias.webp"/></div><div class="collection-info"><h3>Três Espiãs Demais</h3><p>Sam, Clover e Alex em missões secretas!</p><div class="collection-bottom"><strong>R$ 6,90</strong><a class="collection-cta" href="https://pay.lowify.com.br/checkout?product_id=zVcWH6" rel="noopener noreferrer" target="_blank">Comprar</a></div></div></article><article class="collection-card"><div class="collection-image edge-to-edge"><img alt="Harry Potter" loading="lazy" src="assets/card-harry-potter.webp"/></div><div class="collection-info"><h3>Harry Potter</h3><p>A magia e as aventuras de Hogwarts!</p><div class="collection-bottom"><strong>R$ 9,90</strong><a aria-label="Comprar Harry Potter por R$ 9,90 na Lowify" class="collection-cta verified-checkout-link" href="https://pay.lowify.com.br/checkout?product_id=XB5Js6" rel="noopener noreferrer" target="_blank">Comprar</a></div></div></article><article class="collection-card"><div class="collection-image edge-to-edge"><img alt="Crepúsculo" loading="lazy" src="assets/card-crepusculo.webp"/></div><div class="collection-info"><h3>Crepúsculo</h3><p>Romance, vampiros e toda a saga!</p><div class="collection-bottom"><strong>R$ 6,90</strong><a aria-label="Comprar Crepúsculo por R$ 6,90 na Lowify" class="collection-cta verified-checkout-link" href="https://pay.lowify.com.br/checkout?product_id=Wblz9V" rel="noopener noreferrer" target="_blank">Comprar</a></div></div></article><article class="collection-card card-terror"><span class="special-package-tag">ESPECIAL</span><div class="collection-image edge-to-edge terror-card-image"><img alt="Filmes de Terror" decoding="async" height="720" loading="lazy" src="assets/card-filmes-terror.webp" width="1280"/></div><div class="collection-info"><h3>Filmes de Terror</h3><p>Clássicos e novidades para maratonar!</p><div class="collection-bottom"><strong>R$ 9,90</strong><a aria-label="Comprar Filmes de Terror por R$ 9,90 na Lowify" class="collection-cta verified-checkout-link" href="https://pay.lowify.com.br/checkout?product_id=geEKcD" rel="noopener noreferrer" target="_blank">Comprar</a></div></div></article><article class="collection-card card-animacoes"><span class="special-package-tag">ESPECIAL</span><div class="collection-image edge-to-edge spooky-card-image"><img alt="Animações Assustadoras" decoding="async" height="720" loading="lazy" src="assets/card-animacoes-assustadoras.webp" width="1280"/></div><div class="collection-info"><h3>Animações Assustadoras</h3><p>Coraline, Noiva Cadáver, Scooby-Doo e mais!</p><div class="collection-bottom"><strong>R$ 6,90</strong><a aria-label="Comprar Animações Assustadoras por R$ 6,90 na Lowify" class="collection-cta verified-checkout-link" href="https://pay.lowify.com.br/checkout?product_id=97aH31" rel="noopener noreferrer" target="_blank">Comprar</a></div></div></article></div><button aria-controls="pacotes-carousel" aria-label="Ver próximo pacote" class="minimal-arrow package-nav package-nav-next" type="button">›</button></div><div class="small-hint">Deslize para ver todas as coleções →</div><div class="ribbon-bonus">🎁 <strong>Bônus:</strong> aproveite <strong>até 30% OFF</strong> nos desenhos extras ao complementar sua compra!</div></section><div class="reading-interlude"><p>Seu cantinho de nostalgia,<br/><em>onde você estiver.</em></p><div class="line"></div>♡</div><svg aria-hidden="true" class="wave wave-night-in" preserveaspectratio="none" style="background:#f5d4ef" viewbox="0 0 470 30"><path d="M0 8 Q58 29 117 10 T235 11 T353 10 T470 12 V30 H0 Z" fill="#27102a"></path></svg><section aria-label="Noite das Girls" class="night-wrap" id="noite-das-girls">
 <div class="night-inner">
 <div class="night-intro">E tem mais! <span aria-hidden="true" class="night-heart">♡</span></div><p class="night-tagline">Para Girls nem um pouco básicas…</p>
-<img alt="Noite das Girls: pacote especial com Harry Potter, Crepúsculo, Filmes de Terror e Animações Assustadoras" class="night-banner" width="1672" height="941" loading="lazy" decoding="async" src="assets/banner-noite-das-girls.webp"/>
+<img alt="Noite das Girls: pacote especial com Harry Potter, Crepúsculo, Filmes de Terror e Animações Assustadoras" class="night-banner" decoding="async" height="941" loading="lazy" src="assets/banner-noite-das-girls.webp" width="1672"/>
 <div class="night-action">
 <a aria-label="Conhecer pacote Noite das Girls por R$ 15,90 na Lowify" class="night-cta" href="https://pay.lowify.com.br/checkout.php?product_id=qbonIY" rel="noopener noreferrer" target="_blank">CONHECER PACOTE</a>
 <p class="night-subline">Pagamento único de R$ 15,90</p>
@@ -1292,65 +1489,74 @@ html,body{margin:0!important;padding:0!important;}
 <img alt="COMPRA 100% SEGURA — PIX" decoding="async" height="467" loading="lazy" src="assets/selo-compra-segura-pix.webp" width="1100"/>
 </div>
 </section></main><footer class="footer">©2026 Cinema das Girls.<br/>Todos os direitos reservados.</footer></div><aside class="sticky"><span>FILMES DA BARBIE <b>R$ 6,90</b></span><a aria-controls="barbiePopup" aria-haspopup="dialog" data-barbie-popup-trigger="true" data-previous-checkout="https://pay.lowify.com.br/checkout?product_id=ZuAGEM" href="#barbiePopup" target="_self">GARANTIR ACESSO</a></aside><script id="uploaded-offer-carousel-loop">document.addEventListener('DOMContentLoaded',()=>{const t=document.querySelector('#comprar-barbie .movie-carousel-track');if(t&&!t.dataset.cloned){[...t.children].forEach(n=>{const clone=n.cloneNode(true);clone.setAttribute('aria-hidden','true');t.appendChild(clone)});t.dataset.cloned='1';}});</script>
-<script id="package-carousel-navigation-script">(function(){
+<script id="package-carousel-navigation-script">
+(function(){
   function setup(){
     var track=document.getElementById('pacotes-carousel');
     var prev=document.querySelector('.package-nav-prev');
     var next=document.querySelector('.package-nav-next');
-    if(!track || !prev || !next || track.dataset.iphoneNavReady==='1') return;
-    track.dataset.iphoneNavReady='1';
-    var restoreTimer=null;
-    function cards(){ return Array.prototype.slice.call(track.querySelectorAll('.collection-card')); }
-    function maxScroll(){return Math.max(0,track.scrollWidth-track.clientWidth);}
-    function cardPosition(card){
-      var box=card.getBoundingClientRect();
-      var trackBox=track.getBoundingClientRect();
-      return Math.max(0,box.left-trackBox.left+track.scrollLeft);
+    if(!track || !prev || !next || track.dataset.pairsNavReady==='1')return;
+    track.dataset.pairsNavReady='1';
+    var all=Array.prototype.slice.call(track.querySelectorAll('.collection-card'));
+    if(!all.length)return;
+    var count=Math.ceil(all.length/2), page=0, restoring=null, switching=false;
+    function clamp(num){return Math.min(count-1,Math.max(0,num));}
+    function leftAt(index){
+      var rect=all[index].getBoundingClientRect();
+      var box=track.getBoundingClientRect();
+      return rect.left-box.left+track.scrollLeft;
     }
-    function update(){
-      var x=track.scrollLeft;
-      var max=maxScroll();
-      prev.disabled=x<2;
-      next.disabled=x>=max-2;
+    function pagePosition(p){return leftAt(Math.min(all.length-1,clamp(p)*2));}
+    function syncButtons(){
+      prev.disabled=page<=0;
+      next.disabled=page>=count-1;
     }
-    function go(delta,event){
-      if(event) event.preventDefault();
-      var all=cards();
-      if(!all.length) return;
-      var x=track.scrollLeft;
-      var current=0, best=Infinity;
-      for(var i=0;i<all.length;i++){
-        var diff=Math.abs(cardPosition(all[i])-x);
-        if(diff<best){best=diff;current=i;}
+    function nearestPage(){
+      var x=track.scrollLeft, nearest=0, dist=Infinity;
+      for(var p=0;p<count;p++){
+        var delta=Math.abs(pagePosition(p)-x);
+        if(delta<dist){dist=delta;nearest=p;}
       }
-      var target=Math.max(0,Math.min(maxScroll(),cardPosition(all[Math.min(all.length-1,Math.max(0,current+delta))])));
-      // On iOS Safari, native scrollBy({behavior:'smooth'}) may be interrupted by mandatory scroll snap.
-      if(restoreTimer) clearTimeout(restoreTimer);
+      return nearest;
+    }
+    function moveTo(p,event){
+      if(event)event.preventDefault();
+      var targetPage=clamp(p);
+      if(restoring)clearTimeout(restoring);
+      switching=true;
+      page=targetPage;
+      syncButtons();
+      var to=pagePosition(targetPage);
       track.style.scrollBehavior='auto';
       track.style.scrollSnapType='none';
-      track.scrollLeft=target;
-      update();
-      restoreTimer=setTimeout(function(){
+      // Direct assignment works on iOS Safari without relying on smooth scroll APIs.
+      track.scrollLeft=to;
+      restoring=setTimeout(function(){
         track.style.scrollSnapType='x mandatory';
-        track.style.scrollBehavior='auto';
-        update();
-      },160);
+        switching=false;
+        page=nearestPage();
+        syncButtons();
+      },150);
     }
-    prev.addEventListener('click',function(e){go(-1,e);});
-    next.addEventListener('click',function(e){go(1,e);});
-    track.addEventListener('scroll',update,{passive:true});
-    window.addEventListener('resize',update);
-    // Keyboard accessibility when focused on the carousel.
+    prev.addEventListener('click',function(e){moveTo(page-1,e)});
+    next.addEventListener('click',function(e){moveTo(page+1,e)});
+    track.addEventListener('scroll',function(){
+      if(switching)return;
+      if(track._pairScrollRaf)cancelAnimationFrame(track._pairScrollRaf);
+      track._pairScrollRaf=requestAnimationFrame(function(){page=nearestPage();syncButtons()});
+    },{passive:true});
     track.addEventListener('keydown',function(e){
-      if(e.key==='ArrowRight'){go(1,e);}
-      if(e.key==='ArrowLeft'){go(-1,e);}
+      if(e.key==='ArrowRight')moveTo(page+1,e);
+      else if(e.key==='ArrowLeft')moveTo(page-1,e);
     });
-    if(document.fonts && document.fonts.ready) document.fonts.ready.then(update);
-    update();
+    window.addEventListener('resize',function(){moveTo(page)});
+    if(document.fonts && document.fonts.ready)document.fonts.ready.then(function(){moveTo(0)});
+    syncButtons();
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',setup);
   else setup();
-})();</script>
+})();
+</script>
 <div aria-hidden="true" aria-label="Escolha seu pacote Barbie" aria-modal="true" class="barbie-popup-overlay" id="barbiePopup" role="dialog" tabindex="-1">
 <div class="popup-frame">
 <a aria-label="Fechar janela e voltar às coleções" class="popup-close" href="#colecoes" role="button">×</a>
